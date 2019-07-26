@@ -1,0 +1,10 @@
+#nav {
+	background-color: red;
+	text-align: right;
+	margin: -10px -10px;
+	height: 40px
+}
+a {
+	color: white;
+	text-decoration: none;
+	margin: auto 10px;
