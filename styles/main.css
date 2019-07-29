@@ -18,6 +18,7 @@ nav a {
 	text-align: center;
 	padding: 18px 16px;
 	text-decoration: none;
+	margin: auto 10px;
 	font-size: 18px;
 }
 nav p {
@@ -66,4 +67,3 @@ body {
 }
 #contact {
 	text-align: center;
-}
