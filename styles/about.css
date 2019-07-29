@@ -15,7 +15,6 @@ nav a {
 	text-align: center;
 	padding: 18px 16px;
 	text-decoration: none;
-	margin: auto 10px;
 	font-size: 18px;
 }
 nav p {
@@ -47,6 +46,7 @@ body {
 	background-color: #fffdd0;
 	color: black;
 	width: 100%;
+
 }
 #aboutcontent {
 	padding: 20px;
