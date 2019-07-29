@@ -37,6 +37,9 @@ nav a.active {
 }
 body {
 	height: 100%;
+	margin: auto 10px;
+}
+body {
 	margin: 0;
 	color: #d9d9d9;
 	font-family: 'Ubuntu', sans-serif;
@@ -51,7 +54,6 @@ body {
 	background-color: #fffdd0;
 	color: black;
 	width: 100%;
-
 }
 #aboutcontent {
 	padding: 20px;
@@ -59,6 +61,7 @@ body {
 }
 .weblink {
 	padding: 15px;
+	padding: 10px;
 	border: solid black 2px;
 }
 #contact {
