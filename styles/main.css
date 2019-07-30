@@ -84,7 +84,7 @@ body {
 	background-color: slategray;
 	padding-top: 10px;
 	color: rgb(230,230,230);
-	height: 300px;
+	height: 975px;
 }
 #contact:after {
 	content: "";
@@ -108,6 +108,14 @@ body {
 }
 .icon {
 	display: none;
+}
+.idv {
+	width: 50%;
+	height: 40%;
+}
+#group {
+	width: 50%;
+	height: 45%
 }
 @media only screen and (max-width: 675px) {
 	nav {
