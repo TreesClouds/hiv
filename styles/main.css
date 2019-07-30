@@ -68,8 +68,17 @@ body {
 	border: solid black 2px;
 	color: black;
 }
+.weblink:hover {
+	background-color: black;
+	color: white;
+}
 #contact {
 	text-align: center;
+}
+#contact:after {
+	content: "";
+	display: table;
+ 	clear: both;
 }
 #head {
 	text-shadow: 2px 2px gray;
@@ -80,5 +89,10 @@ body {
 	width: 100%;
 	background-color: #ffee3d;
 	color: black;
-	height: 180px;
+	height: 380px;
+}
+.column {
+  float: left;
+  width: 25%;
+  background-color: slategray;
 }
