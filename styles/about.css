@@ -60,3 +60,36 @@ body {
 	text-align: center;
 }
 
+
+
+
+
+
+
+#what_hiv, #spread_hiv, #hiv_medication{
+	margin: 0 auto;
+	text-align: center;
+	background-color: #fffdd0;
+	color: black;
+	width: 90%;
+	border-style: solid;
+	border: 2px;
+	border-radius: 9px;
+	padding: 10px;
+	margin-bottom: 20px;
+}
+ol {
+	list-style-position: inside;
+}
+
+#left_section, #right_section{
+	background-color: #ffee3d;
+	border-style: solid;
+	border-radius: 9px;
+}
+#left_section{
+	margin-right: 515px;
+}
+#right_section{
+	margin-left: 515px;
+}
