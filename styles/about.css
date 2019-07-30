@@ -59,16 +59,25 @@ body {
 #contact {
 	text-align: center;
 }
-#what_hiv, #spread_hiv, #hiv_medication{
+#spread_hiv, #hiv_medication{
 	margin: 0 auto;
 	text-align: center;
-	background-color: #fffdd0;
+	background-color: #00a5a5;
 	color: black;
-	width: 90%;
+	width: 95%;
 	border-style: solid;
 	border: 2px;
 	border-radius: 9px;
 	padding: 10px;
+	margin-bottom: 20px;
+}
+
+#what_hiv {
+	background-color: #fffdd0;
+	margin-top: auto;
+	color: black;
+	text-align: center;
+	padding: 20px;
 	margin-bottom: 20px;
 }
 ol {
@@ -76,13 +85,12 @@ ol {
 }
 
 #left_section, #right_section{
-	background-color: #ffee3d;
-	border-style: solid;
+	background-color: #00d8d8;
 	border-radius: 9px;
 }
 #left_section{
-	margin-right: 515px;
+
 }
 #right_section{
-	margin-left: 515px;
+
 }
