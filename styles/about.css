@@ -59,4 +59,10 @@ body {
 #contact {
 	text-align: center;
 }
-
+#list1 {
+	border-color: tomato;
+	border-width: 2px ;
+ 	border-radius: 9px;
+ 	border-style: solid
+  
+}
