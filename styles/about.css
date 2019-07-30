@@ -59,7 +59,7 @@ body {
 #contact {
 	text-align: center;
 }
-#spread_hiv, #hiv_medication{
+#spread_hiv, #hiv_medication,.aboutsec1, .aboutsec2{
 	margin: 0 auto;
 	text-align: center;
 	background-color: #00a5a5;
@@ -82,10 +82,20 @@ ol {
 	list-style-position: inside;
 }
 
-#left_section, #right_section{
+.aboutsec1, .aboutsec2 {
 	background-color: #00d8d8;
 	border-radius: 9px;
 	padding: 20px;
+	margin-bottom: 10px;
+	text-align: left;
+}
+.aboutsec1{
+	float: left;
+	width: 45%;
+}
+.aboutsec2{
+	float: right;
+	width: 45%;
 }
 #hiv_title{
 	text-shadow: 2px 2px grey;
