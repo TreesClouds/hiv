@@ -4,21 +4,31 @@
 	<title>Home | Team HIV-A</title>
 	<link rel="stylesheet" type="text/css" href="styles/main.css">
 	<link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<script src="script.js"></script>
 </head>
 <body>
 	<nav>
 		<p>Team HIV-A</p>
-		<a href="#contact">CONTACT US</a>
-		<a href="solution.html">SOLUTION</a>
-		<a href="about-hiv.html">ABOUT HIV</a>
-		<a href="#top">HOME</a>
+		<div id="links">
+			<a href="#contact">CONTACT US</a>
+			<a href="solution.html">SOLUTION</a>
+			<a href="about-hiv.html">ABOUT HIV</a>
+			<a href="#top">HOME</a>
+		</div>
+		<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+   		<i class="fa fa-bars"></i>
+  </a>
 	</nav>
 	<div id="main">
 		<h1 id="head">Human Immunodeficiency Virus</h1>
-		<img src="images/virus.png" style="width:300px;height:300px;">
+		<img src="images/virus.png" style="width:300px;height:300px;" alt="virus">
 		<h2>A website from SMASHxStanford's Team HIV-A</h2>
-		<a href="#about">
-			<img src="images/arrow.gif" style="width:75px;height:75px;">
+		<div id="abouthiv"></div>
+		<a href="#abouthiv">
+			<img src="images/arrow.gif" style="width:75px;height:75px;" alt="arrowdown">
 		</a>
 	</div>
 	<div id="about"><div id="aboutcontent">
@@ -29,7 +39,7 @@
 	<div id="solution">
 		<h1>Our Solution</h1>
 		<p>Introducing Duber, a medicine transportation app that uses drones to quickly and efficiently deliver to your home.</p>
-		<img src="images/duber.png" style="width:600px;height:200px"><br><br>
+		<img src="images/duber.png" style="width:600px;height:200px" alt="duber"><br><br>
 		<a href="solution.html" class="weblink">SOLUTION DEMO</a>
 	</div>
 	<div id="contact">
