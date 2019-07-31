@@ -129,7 +129,7 @@ body {
 
 	}
 }
-#spread_hiv, #hiv_medication,.aboutsec1, .aboutsec2{
+#spread_hiv, #hiv_medication, .aboutsec1, .aboutsec2{
 	margin: 0 auto;
 	text-align: center;
 	background-color: #00a5a5;
@@ -152,7 +152,7 @@ ol {
 	list-style-position: inside;
 }
 
-.aboutsec1, .aboutsec2 {
+.aboutsec1, .aboutsec2, .spread_info{
 	background-color: #00d8d8;
 	border-radius: 9px;
 	padding: 20px;
@@ -174,3 +174,4 @@ ol {
 	color: white;
 	font-size: 25px;
 }
+
