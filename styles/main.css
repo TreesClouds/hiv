@@ -41,8 +41,26 @@ body {
 	margin: 0;
 	color: white;
 	font-family: 'Ubuntu', sans-serif;
-	background-color: darkcyan;
 	text-align: center;
+	background-color: darkcyan;
+}
+.duber {
+	background-color: white;
+	color: black;
+	padding-top: 75px;
+	height: 80%;
+}
+#duberhead {
+	margin-bottom: 60px;
+}
+.duberinput {
+	border: solid black 2px;
+	margin: auto 40%;
+	background-color: lightgray;
+	border-radius: 10px;
+}
+#pass {
+	margin-bottom: 50px;
 }
 #main {
 	padding-top: 75px;
@@ -63,7 +81,6 @@ body {
 
 }
 .weblink {
-	padding: 15px;
 	padding: 10px;
 	border: solid black 2px;
 	color: black;
