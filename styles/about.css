@@ -157,17 +157,19 @@ ol {
 }
 .aboutsec1{
 	float: left;
-	width:45%;
+	width:46%;
 }
 .aboutsec2{
 	float: right;
-	width: 45%;
+	width: 46%;
 }
 #hiv_title{
 	text-shadow: 2px 2px grey;
 	text-align: center;
-	margin-top: 70px;
+	margin-top: 90px;
 	color: white;
 	font-size: 25px;
 }
-
+#hiv_medication{
+	padding-bottom: 400px;
+}
