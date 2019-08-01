@@ -148,13 +148,9 @@ body {
 ol {
 	list-style-position: inside;
 }
-body {
-	background:linear-gradient(to bottom, #ee9ca7, #ffdde1);
-}
+
 .aboutsec1, .aboutsec2, .spread_info{
 	border-radius: 9px;
-	border-style: solid;
-	border:5px;
 	padding: 20px;
 	margin-bottom: 10px;
 	text-align: left;
@@ -167,6 +163,9 @@ body {
 .aboutsec2{
 	float: right;
 	width: 46%;
+}
+body {
+	background:linear-gradient(to bottom, #d9a7c7, #fffcdc);
 }
 #hiv_title{
 	text-shadow: 2px 2px grey;
