@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		#myDiv {
+			padding: 50px;
+			width: 50%;
+			display: none;
+		}
+	</style>
+	<script type="text/javascript">
+		function myFirstFunction() {
+			var name = document.getElementById('yourName');
+			//Get name
+			var span = document.getElementById('name-span');
+			span.innerText=name.value; //Header
+			var myDiv = document.getElementById('myDiv');
+			myDiv.style.display='block'; //Div
+			var yourFirst = document.getElementById('yourFirstColor'); //get color
+			var yourSecond = document.getElementById('yourSecondColor'); //get color
+			myDiv.style.color=yourFirst.value;
+			myDiv.style.background=yourSecond.value;
+		}
+	</script>
+</head>
+<body>
+	<form>
+		Name:<br>
+		<input type="text" name="yourName" id="yourName"><br>
+		First color:<br>
+		<input type="text" name="yourFirstColor" id="yourFirstColor"><br>
+		Second color:<br>
+		<input type="text" name="yourSecondColor" id="yourSecondColor"><br>
+		<input type="button" name="myButton" id="myButton" value="OK" onclick="myFirstFunction();">
+	</form>
+	<div id="myDiv">
+		<h1>Welcome <span id="name-span"></span>!</h1>
+	</div>
+</body>
+</html>
