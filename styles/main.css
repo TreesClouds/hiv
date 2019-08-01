@@ -57,6 +57,9 @@ body {
 	margin: auto 5%;
 	text-align: left;
 }
+.line {
+	border: solid black 2px;
+}
 #duberhead {
 	margin-bottom: 60px;
 }
@@ -91,6 +94,38 @@ body {
 	width: 75%;
 	float: right;
 }
+.dubercolumn {
+	border: solid black 2px;
+	border-radius: 10px;
+	width: 30%;
+	height: 500px;
+	text-align: center;
+	float: left;
+	margin: auto 10px
+}
+.dubercolumn a {
+	color: black;
+}
+.dubercolumn:hover {
+	background: lightgray;
+}
+.dubercolumncs {
+	border: solid black 2px;
+	border-radius: 10px;
+	width: 30%;
+	height: 500px;
+	text-align: center;
+	float: left;
+	margin: auto 10px;
+	background-color: lightgray;
+}
+.old {
+	color: darkgray;
+	text-decoration: line-through;
+}
+.new {
+	color: green;
+}
 #pass {
 	margin-bottom: 50px;
 }
@@ -113,7 +148,6 @@ body {
 	padding: 20px;
 	padding-bottom: 40px;
 	color:black;
-
 }
 .weblink {
 	padding: 10px;
@@ -123,6 +157,22 @@ body {
 .weblink:hover {
 	background-color: black;
 	color: white;
+}
+#before {
+	background-color: darkgreen;
+	color: white;
+}
+#after {
+	display: none;
+	background-color: red;
+	margin-top: -12px;
+	width: 60%
+}
+.incart:hover #before {
+	display: none;
+}
+.incart:hover #after {
+	display: block;
 }
 #contact .weblink {
 	border: solid rgb(230,230,230) 2px;
@@ -184,6 +234,7 @@ nav .icon {
 @media only screen and (max-width: 675px) {
 	nav {
 		height: 50px;
+		position: relative;
 	}
 	#regNav {
 		display: none;
