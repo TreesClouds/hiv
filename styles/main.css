@@ -33,12 +33,12 @@ nav a:hover {
 	background-color: #ce1818;
 }
 nav a.active {
-	background-color: #4CAF	50;
+	background-color: #4CAF50;
 	color: white;
 }
 body {
-	height: 100%;
 	margin: 0;
+	height: 100%;
 	color: white;
 	font-family: 'Ubuntu', sans-serif;
 	text-align: center;
@@ -50,6 +50,13 @@ body {
 	padding-top: 75px;
 	height: 80%;
 }
+.nonalign {
+	text-align: left;
+}
+.app {
+	margin: auto 5%;
+	text-align: left;
+}
 #duberhead {
 	margin-bottom: 60px;
 }
@@ -59,8 +66,36 @@ body {
 	background-color: lightgray;
 	border-radius: 10px;
 }
+.duberselection {
+	border: solid black 2px;
+	border-radius: 10px;
+	width: 75%;
+	text-align: center;
+	margin-bottom: 20px;
+}
+.duberselection a {
+	color: black;
+}
+.duberselection:hover {
+	background: lightgray;
+}
+.cs {
+	border: solid black 2px;
+	border-radius: 10px;
+	width: 75%;
+	text-align: center;
+	margin-bottom: 20px;
+	background: lightgray;
+}
+.selections {
+	width: 75%;
+	float: right;
+}
 #pass {
 	margin-bottom: 50px;
+}
+.underline {
+	text-decoration: underline;
 }
 #main {
 	padding-top: 75px;
@@ -192,6 +227,9 @@ nav .icon {
     	display: block;
 	}
 	nav.responsive #team {
+		display: none;
+	}
+	.duber {
 		display: none;
 	}
 }
