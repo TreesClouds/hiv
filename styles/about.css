@@ -129,21 +129,17 @@ body {
 
 	}
 }
-#spread_hiv, #hiv_medication,.aboutsec1, .aboutsec2{
+#spread_hiv, #hiv_medication, .aboutsec1, .aboutsec2{
 	margin: 0 auto;
 	text-align: center;
-	background-color: #00a5a5;
+	background-color: #fff5e2;
 	color: black;
-	width: 95%;
-	border-style: solid;
-	border: 2px;
-	border-radius: 9px;
 	padding: 10px;
 	margin-bottom: 20px;
 }
 
 #what_hiv {
-	color: white;
+	color: black;
 	text-align: center;
 	padding: 20px;
 	margin-bottom: 20px;
@@ -151,26 +147,32 @@ body {
 ol {
 	list-style-position: inside;
 }
-
-.aboutsec1, .aboutsec2 {
-	background-color: #00d8d8;
+body {
+	background: linear-gradient(to bottom, #ee9ca7, #ffdde1);
+}
+.aboutsec1, .aboutsec2, .spread_info{
+	background-color: #efff94;
 	border-radius: 9px;
 	padding: 20px;
 	margin-bottom: 10px;
 	text-align: left;
+	background: linear-gradient(to bottom, #FFEFBA, #FFFFFF);
 }
 .aboutsec1{
 	float: left;
-	width: 45%;
+	width:46%;
 }
 .aboutsec2{
 	float: right;
-	width: 45%;
+	width: 46%;
 }
 #hiv_title{
 	text-shadow: 2px 2px grey;
 	text-align: center;
-	margin-top: 30px;
+	margin-top: 100px;
 	color: white;
 	font-size: 25px;
+}
+#hiv_medication{
+	padding-bottom: 400px;
 }
