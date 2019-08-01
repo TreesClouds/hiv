@@ -136,6 +136,7 @@ body {
 	color: black;
 	padding: 10px;
 	margin-bottom: 20px;
+
 }
 
 #what_hiv {
@@ -148,11 +149,12 @@ ol {
 	list-style-position: inside;
 }
 body {
-	background: linear-gradient(to bottom, #ee9ca7, #ffdde1);
+	background:linear-gradient(to bottom, #ee9ca7, #ffdde1);
 }
 .aboutsec1, .aboutsec2, .spread_info{
-	background-color: #efff94;
 	border-radius: 9px;
+	border-style: solid;
+	border:5px;
 	padding: 20px;
 	margin-bottom: 10px;
 	text-align: left;
