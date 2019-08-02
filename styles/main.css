@@ -376,8 +376,38 @@ ol {
   	nav a.icon {
     	float: right;
     	display: block;
+    	width: 18px;
+    	height: 18px;
 	}
 	nav.responsive #team {
 		display: none;
+	}
+	.duberinput {
+		width: 70%;
+		margin: 0 auto;
+	}
+	.duber {
+		padding-top: 0;
+	}
+	.duber .column {
+		text-align: center;
+	}
+	.selections {
+		margin-top: 40px;
+		width: 100%;
+	}
+	.cs {
+		width: 100%;
+	}
+	.duberselection {
+		width: 100%;
+	}
+	.dubercolumn {
+		width: 90%;
+		margin-bottom: 20px;
+	}
+	.dubercolumncs {
+		width: 90%;
+		margin-bottom: 20px;
 	}
 }
