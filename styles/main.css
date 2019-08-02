@@ -252,6 +252,73 @@ nav .icon {
 #myNav {
 	display: none;
 }
+#spread_hiv, #hiv_medication, .aboutsec1, .aboutsec2{
+	margin: 0 auto;
+	text-align: center;
+	background-color: #fff5e2;
+	color: black;
+	padding: 10px;
+	/*margin-bottom: 20px;*/
+
+}
+#spread_hiv {
+	padding-top: -20px
+}
+#what_hiv {
+	color: black;
+	text-align: center;
+	padding: 20px;
+	/*margin-bottom: 20px;*/
+}
+ol {
+	list-style-position: inside;
+}
+
+.aboutsec1, .aboutsec2, .spread_info, .stat_info{
+	border-radius: 9px;
+	padding: 20px;
+	margin-bottom: 10px;
+	text-align: left;
+	/*background: linear-gradient(to bottom, #FFEFBA, #FFFFFF);*/
+	background: #FFEFBA;
+	box-shadow: 5px 5px #CCBF95;
+}
+.aboutsec1{
+	float: left;
+	width:46%;
+}
+.aboutsec2{
+	float: right;
+	width: 46%;
+}
+#ab {
+	background:linear-gradient(to bottom, #d9a7c7, #fffcdc);
+}
+#hiv_title{
+	text-shadow: 2px 2px grey;
+	text-align: center;
+	margin-top: 100px;
+	color: white;
+	font-size: 25px;
+}
+#hiv_medication{
+	padding-bottom: 400px;
+}
+
+#graphs{
+	text-align: left;
+	/*margin-bottom: 20px*/
+	margin: 0 auto;
+	padding: 10px;
+	color: black;
+	background-color: #fffcdc;
+}
+#alexg{
+	padding: 10px;
+	width:250px;
+	float: right;
+	margin-top: -10px;
+}
 @media only screen and (max-width: 675px) {
 	nav {
 		height: 50px;
