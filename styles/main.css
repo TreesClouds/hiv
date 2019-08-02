@@ -291,6 +291,9 @@ ol {
 	float: right;
 	width: 46%;
 }
+.stat_info {
+	height: 175px;
+}
 #ab {
 	background:linear-gradient(to bottom, #d9a7c7, #fffcdc);
 }
@@ -319,7 +322,16 @@ ol {
 	float: right;
 	margin-top: -10px;
 }
+.nrp2 {
+	display: none;
+}
 @media only screen and (max-width: 675px) {
+	.nrp {
+		display: none;
+	}
+	.nrp2 {
+		display: block;
+	}
 	nav {
 		height: 50px;
 		position: relative;
